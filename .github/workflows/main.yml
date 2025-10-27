@@ -1,0 +1,11 @@
+name: Hello World Workflow
+
+on: [push] # This workflow runs on every push to any branch
+
+jobs:
+  greet:
+    runs-on: ubuntu-latest # Specify the operating system for the runner
+    steps:
+      - name: Say Hello
+        run: echo "Hello, Git Actions!" # Execute a simple shell command
+            
