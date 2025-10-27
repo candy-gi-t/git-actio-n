@@ -7,5 +7,5 @@ jobs:
     runs-on: ubuntu-latest # Specify the operating system for the runner
     steps:
       - name: Say Hello
-        run: echo "Hello, Git Actions!" # Execute a simple shell command
+        run: echo "Hello, Git Actions from your repository!" # Execute a simple shell command
             
